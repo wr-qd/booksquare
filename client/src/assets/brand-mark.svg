@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9d7ff"/>
+      <stop offset="1" stop-color="#cfe9ff"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="6" y="6" width="52" height="52" rx="18" fill="rgba(255,255,255,0.75)"/>
+  <rect x="6" y="6" width="52" height="52" rx="18" fill="url(#g)" opacity="0.55"/>
+
+  <!-- book -->
+  <g fill="none" stroke="#3a3a47" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 22h18c3.3 0 6 2.7 6 6v18c-2.2-1.4-4.3-2-7-2H22c-2.7 0-4.8.6-7 2V28c0-3.3 2.7-6 6-6z"/>
+    <path d="M22 22v22" opacity="0.55"/>
+    <path d="M28 30h12" opacity="0.55"/>
+    <path d="M28 36h10" opacity="0.55"/>
+  </g>
+
+  <!-- sparkles -->
+  <g fill="#ffffff" opacity="0.9">
+    <path d="M46 16l1.7 3.4 3.8.6-2.7 2.7.6 3.8-3.4-1.8-3.4 1.8.6-3.8-2.7-2.7 3.8-.6z"/>
+    <circle cx="16" cy="18" r="2"/>
+    <circle cx="50" cy="48" r="2"/>
+  </g>
+</svg>
